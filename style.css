@@ -1,0 +1,58 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+
+    color: white;
+
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+body, #container {
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    position: relative;
+
+    background: linear-gradient(316deg, #1e54aa, #0c4eb5, #09306d);
+    background-size: 600% 600%;
+    
+    animation: background 15s ease infinite;
+}
+
+@keyframes background { 
+    0%   {background-position:78% 0%}
+    50%  {background-position:23% 100%}
+    100% {background-position:78% 0%}
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    
+    left: 50%;
+    top: 45%;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.title img {
+    height: 6rem;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.bottom {
+    position: absolute;
+    text-align: center;
+    
+    left: 5%;
+    bottom: 5%;
+
+}

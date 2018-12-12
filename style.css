@@ -41,18 +41,23 @@ body, #container {
 }
 
 .title img {
-    height: 6rem;
+    max-height: 6rem;
+    max-width: 85vw;
 }
 
 .title h1 {
     margin: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .bottom {
     position: absolute;
-    text-align: center;
     
     left: 5%;
     bottom: 5%;
-
 }
